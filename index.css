@@ -1,0 +1,160 @@
+/* sets background color for entire website*/
+body {
+    background-color: rgb(44, 70, 211);
+    color: white;
+}
+
+/* centers text in headers*/
+h1, h2 {
+    text-align: center;
+}
+
+/* code to format navigation bar*/
+.navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navi li {
+    float: left;
+}
+  
+.navi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to black on hover */
+.navi a:hover {
+    background-color: #111;
+}
+
+/* show user which page they're currently on*/
+.active {
+    background-color: #804A1E;
+}
+
+/* code to format submenu in navigation bar*/
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(23, 93, 120);
+    min-width: fit-content;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* Header images for each page */
+.header-img1 {
+    width: 100%;
+    height: 400px;
+    background: url('scuba2.jpg');
+    background-size: cover;
+}
+
+.header-img2 {
+    width: 100%;
+    height: 400px;
+    background: url('scuba1.jpg');
+    background-size: cover;
+}
+
+.header-img3 {
+    width: 100%;
+    height: 400px;
+    background: url('ocean1.jpg');
+    background-size: cover;
+}
+
+.header-img4 {
+    width: 100%;
+    height: 400px;
+    background: url('ocean2.jpg');
+    background-size: cover;
+}
+
+.header-img5 {
+    width: 100%;
+    height: 400px;
+    background: url('destination5.jpg');
+    background-size: cover;
+}
+
+/* aligns button on first page to the center*/
+.enter {
+    text-align: center;
+}
+
+/* sets button color and aligns them to the right for every other page*/
+.btn {
+    height: 50px;
+    background-color: rgb(110,86,2);
+    color: white;
+}
+
+.end {
+    display: inline;
+}
+
+.endbtn {
+    text-align: right;
+}
+
+/* adjusts size of picture in safety tab*/
+.pic {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+/* code to fromat gallery in views of the ocean tab*/
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* used to show gallery in two rows*/
+div.gall1 {
+    display: inline-block;
+}
+
+div.gall2 {
+    display: inline-block;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <title>World of Scuba Diving</title>
+  
+  <!-- code for navigation bar -->
+  <nav>
+        <ul class="navi">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore_scuba.html">Explore Scuba</a></li>
+            <li><a class="active" href="safety.html">Safety</a></li>
+            <li><a href="views_of_the_ocean.html">Views of the Ocean</a></li>
+            <div class="subnav">
+                <li><a href="get_started.html">Get Started</a>
+                    <div class="subnav-content">
+                        <a href="your_next_destination.html">Your Next Destination</a>               
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-img3"></div>
+  </header>
+  <main>
+    <h1>STOP!! Safety First!</h1>
+    <h2>As with all sports, safety is very important, especially when it is underwater</h2>
+
+    <br>
+
+    <!-- Lists of safety tips when diving -->
+    <!-- <p>Whether you're a beginner or not, being underwater can be very frightening at times. Even so, it is very important that you remain <strong>calm</strong> at all times.</p>
+    <p>Panicking can intefere with your breathing and make you use up more of your limited air supply. As a diver, you must understand the importance of steady breathing and try you best to never panick underwater. </p>
+
+    <p>Here are some other tips to keep in mind:</p> -->
+    <div id="safe"></div>
+    <ul>
+        <li>Never hold your breath while ascending! Ascending should be slow and your breathing should be normal.
+            <ul> <br>
+                <li>Your lungs expand during ascent and contracts during descent. When you hold you breath, air can no longer escape as your lungs expand and can eventually lead to the alveoli that make up the lung walls to rupture.</li>
+            </ul>
+        </li> <br>
+        <li>Always obey all diving instruction. When you descend, make sure to equalize your ears and mask.</li> <br>
+        <li>Do <strong>NOT</strong> drink alcohol and/or take drugs before diving</li> <br>
+        <li>ALWAYS CHECK YOUR EQUIPMENT AND MAKE SURE IT WORKS
+            <ul> <br>
+                <li>Your survival underwater depends on your equipment so do not be lazy when it comes to checking your gear before a dive.</li>
+            </ul>
+        </li> <br>
+        <li>Never dive without a buddy
+            <ul> <br>
+                <li>Having a buddy with you in case something goes wrong is always in your best interests rather than going off on your own.</li>
+            </ul>
+        </li> <br>
+        <li>Always plan your dive, and always dive your plan</li> <br>
+    </ul>
+
+    <br>
+
+    <!-- adds a button and image at the bottom of page -->
+    <div class="end">
+        <img class="pic" src="safety.png" alt="diving safety">
+        <div class="endbtn">
+            <button class="btn" type="button" id="switch3">Let's Take a Peek Underwater!</button>
+        </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+</body>
+</html>

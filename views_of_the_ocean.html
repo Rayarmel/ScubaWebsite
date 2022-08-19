@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <title>World of Scuba Diving</title>
+  
+  <!-- code for navigation bar -->
+  <nav>
+        <ul class="navi">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="explore_scuba.html">Explore Scuba</a></li>
+            <li><a href="safety.html">Safety</a></li>
+            <li><a class="active" href="views_of_the_ocean.html">Views of the Ocean</a></li>
+            <div class="subnav">
+                <li><a href="get_started.html">Get Started</a>
+                    <div class="subnav-content">
+                        <a href="your_next_destination.html">Your Next Destination</a>               
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-img4"></div>
+  </header>
+  <main>
+    <h1>Enjoy these amazing views of the underwater world</h1>
+
+    <!-- first div of gallery holding 3 images -->
+
+    <div class="gall1">
+        <div class="gallery">
+            <a target="_blank" href="view1.jpg">
+              <img src="view1.jpg" alt="Underwater pic 1" width="600" height="400">
+            </a>
+            <div class="desc">Plenty of fish in the sea</div>
+        </div>
+    
+        <div class="gallery">
+            <a target="_blank" href="view12.jpg">
+              <img src="view12.jpg" alt="Underwater pic 2" width="600" height="400">
+            </a>
+            <div class="desc">Peep the underwater artifacts</div>
+        </div>
+    
+        <div class="gallery">
+            <a target="_blank" href="view3.jpg">
+              <img src="view3.jpg" alt="Underwater pic 3" width="600" height="400">
+            </a>
+            <div class="desc">Coral Reef anyone?</div>
+        </div>
+
+    </div>
+
+    <!-- second div of gallery holding 3 images -->
+    <div class="gall2">
+        <div class="gallery">
+            <a target="_blank" href="view4.jpg">
+              <img src="view4.jpg" alt="Underwater pic 4" width="600" height="400">
+            </a>
+            <div class="desc">Swarm of fish rather than of school of fish</div>
+        </div>
+    
+        <div class="gallery">
+            <a target="_blank" href="view5.jpg">
+              <img src="view5.jpg" alt="Underwater pic 5" width="600" height="400">
+            </a>
+            <div class="desc">A true blue ocean, incredibly clear</div>
+        </div>
+    
+        <div class="gallery">
+            <a target="_blank" href="view6.jpg">
+              <img src="view6.jpg" alt="Underwater pic 6" width="600" height="400">
+            </a>
+            <div class="desc">Underwater cave, cool place to go if you're experienced</div>
+        </div>
+    </div>
+
+    <!-- adds a button and image at the bottom of page -->
+    <div class="end">
+        <div class="endbtn">
+            <button class="btn" type="button" id="switch4">Get Started Now!</button>
+        </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <br/>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+</body>
+</html>
